@@ -331,6 +331,28 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   }
 }
 
+  .skills ul {
+      display: block;
+      margin: 0 auto;
+      padding: 0;
+      max-width: 800px;
+      text-align: center;
+  }
+
+  .skills li {
+      display: inline-block;
+      margin: 7px;
+      padding: 5px 10px;
+      list-style: none;
+      cursor: default;
+      font-size: 1.2em;
+      border-bottom: 1px solid black;
+      text-align: center;
+}
+
+.skillsalign {
+  text-align: center;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
